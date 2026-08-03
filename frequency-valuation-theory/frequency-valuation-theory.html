@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="QNFO Research" />
+  <meta name="dcterms.date" content="2026-08-03" />
+  <title>Frequency as Valuation Theory: The Rational Ratio at the Heart of Physical Law</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Frequency as Valuation Theory: The Rational Ratio at
+the Heart of Physical Law</h1>
+<p class="author">QNFO Research</p>
+<p class="date">2026-08-03</p>
+</header>
+<p><strong>Abstract</strong></p>
+<p>Physics expresses frequency as a real number — 5.783 × 10^14 Hz,
+1420.405751768 MHz. Yet in dimensionless Planck units (h = c = G = k_B =
+1), frequency reduces to a ratio of two integers: count-of-oscillations
+per count-of-Planck-times. This is a rational number q = a/b in Q — not
+an Archimedean real. By Ostrowski’s theorem (1916), every rational
+number carries valuations at ALL completions: the familiar real absolute
+value and one p-adic absolute value for each prime p. A frequency is
+therefore not a real number but a valuation-theoretic object whose full
+invariant is its adelic frequency vector.</p>
+<p>This paper develops the consequences. The Compton frequency ν_C =
+mc²/h of a fundamental particle reduces to a dimensionless rational
+number — the particle’s invariant identity. We show that particle
+identity IS its prime spectrum: the factorization of its Compton
+frequency into prime powers determines its place in the Bruhat-Tits tree
+at each finite place. The Archimedean Lorentzian continuum emerges as
+the ∞-completion’s projection; the true coordinate system for rational
+frequencies is the Bruhat-Tits tree with p-adic valuations.</p>
+<p>We distinguish fundamental particles (universal rational Compton
+frequencies with fixed prime spectra) from quasiparticles (environmental
+rationals without universal valuations) and propose that the product
+formula ∏|q|_v = 1 acts as a conservation law connecting all
+completions. The framework makes the specific prediction that the Koide
+mass formula for charged leptons emerges from valuation-theoretic
+constraints, and the Bekenstein bound is exactly an integer inequality
+for discrete systems.</p>
+<hr />
+<h2 id="introduction">1. Introduction</h2>
+<p>Physics without units and without the Archimedean real-number bias
+reveals a deeper structure. The ODR thesis series has established that
+(1) all physical quantities become dimensionless pure numbers in Planck
+units [1], (2) Ostrowski’s theorem classifies all completions of the
+rational numbers Q on equal footing — real and p-adic [2], and (3) the
+Bruhat-Tits tree provides the natural coordinate system for
+dimensionless ratios carrying p-adic valuation structure [3,4].</p>
+<p>This paper extends that framework with a focused investigation of the
+physical quantity that most naturally reveals its rational-valuation
+character: <strong>frequency</strong>.</p>
+<p>Frequency is a count per time. In a discrete universe where time
+advances in Planck-time steps, frequency is the ratio of two integer
+counts — a rational number. The conventional representation as a real
+number (e.g., the hydrogen 21-cm line at 1420.405751768 MHz) is the
+Archimedean completion’s projection of this rational at ONE place (the
+infinite place). The full invariant is the tuple of valuations at ALL
+places.</p>
+<h3 id="analog-of-the-rydberg-constant">1.1. Analog of the Rydberg
+Constant</h3>
+<p>The Rydberg constant R∞ = m_e e^4 / (8ε_0² h³ c) is the most
+precisely measured constant in physics [established — CODATA 2018: R∞ =
+10,973,731.568160(21) m⁻¹]. It sets the scale of atomic spectra through
+the Rydberg formula:</p>
+<blockquote>
+<p>1/λ = R∞ (1/n₁² - 1/n₂²)</p>
+</blockquote>
+<p>where n₁, n₂ are integers. The wavelength λ is a rational combination
+of the Rydberg constant scaled by a ratio of integers. In Planck units,
+R∞ becomes a dimensionless number — and the Rydberg formula expresses
+every atomic transition as a rational function of that number.</p>
+<p>In our framework, the Rydberg constant in Planck units IS the
+rational number R∞/E_P (where E_P is the Planck energy). The integer
+quantum numbers n₁, n₂ multiply this base rational, producing another
+rational for each spectral line. The entire atomic spectrum of hydrogen
+is a set of rational numbers. The Archimedean real numbers we measure
+are approximations of these rationals at finite experimental
+precision.</p>
+<p>This is the key insight: <strong>atomic spectra — the most precisely
+measured quantities in all of physics — are already rational
+ratios.</strong> The Rydberg-Ritz combination principle, historically
+the empirical discovery that spectral frequencies combine as rational
+differences of terms, becomes a theorem about rational numbers. The
+“terms” are the rational base values; the “transitions” are rational
+functions of them.</p>
+<h3 id="structure-of-the-paper">1.2. Structure of the Paper</h3>
+<p>Section 2 reviews the mathematical foundation: Ostrowski’s theorem,
+p-adic valuations, and the Bruhat-Tits tree. Section 3 develops the core
+claim that frequency is a rational valuation-theoretic object. Section 4
+defines the Compton frequency as a particle’s prime spectrum. Section 5
+distinguishes fundamental particles from quasiparticles through their
+valuation structure. Section 6 derives the Rydberg spectrum as a
+rational function of the Compton frequency. Section 7 addresses the
+product formula as a conservation law. Section 8 presents predictions
+and falsifiability conditions.</p>
+<hr />
+<h2 id="mathematical-preliminaries">2. Mathematical Preliminaries</h2>
+<h3 id="ostrowskis-theorem">2.1. Ostrowski’s Theorem</h3>
+<p><strong>Theorem (Ostrowski, 1916 [2]):</strong> Every nontrivial
+absolute value on the rational numbers Q is equivalent to either the
+real absolute value |·|∞ or a p-adic absolute value |·|p for some prime
+p.</p>
+<p>This theorem is the mathematical foundation for “place-democracy” in
+physics: there is no privileged number system for representing physical
+quantities. The Archimedean continuum (real numbers) is ONE completion —
+not the only one, and not the “true” one.</p>
+<p>For a rational number q = a/b ∈ Q, the p-adic absolute value is:</p>
+<blockquote>
+<p>|q|_p = p^{−ord_p(q)}</p>
+</blockquote>
+<p>where ord_p(q) = v_p(a) − v_p(b), with v_p(n) being the exponent of p
+in the prime factorization of n. This measures “how divisible by p” the
+rational number is — small |q|_p means q is highly divisible by p.</p>
+<h3 id="the-product-formula">2.2. The Product Formula</h3>
+<p>For any nonzero rational q ∈ Q×:</p>
+<blockquote>
+<p>∏_v |q|_v = 1</p>
+</blockquote>
+<p>where the product runs over ALL places v (the real place and all
+p-adic places). This is Tate’s product formula [5] — a mathematical
+identity that we propose has physical significance as a conservation law
+connecting UV (p-adic/prime) and IR (Archimedean/continuum) physics.</p>
+<h3 id="the-bruhat-tits-tree">2.3. The Bruhat-Tits Tree</h3>
+<p>For each prime p, the Bruhat-Tits tree T_p [6,7] is a combinatorial
+tree whose vertices correspond to p-adic balls and whose edges encode
+the ultrametric structure of Q_p. A rational number q ∈ Q has a
+well-defined position in T_p for EVERY prime p — its p-adic valuation
+ord_p(q) determines its depth coordinate.</p>
+<p>The tree T_p is isomorphic to a radix tree (trie) over base p [8] —
+the same data structure used in computer science for string storage.
+This isomorphism bridges number theory and information theory: the
+Bruhat-Tits tree is both a p-adic geometric object AND an
+information-theoretic counting structure.</p>
+<hr />
+<h2 id="frequency-as-valuation-theory">3. Frequency as Valuation
+Theory</h2>
+<h3 id="the-rational-nature-of-frequency">3.1. The Rational Nature of
+Frequency</h3>
+<p>In Planck units (h = c = G = k_B = 1), time is measured in Planck
+times t_P = √(hG/c⁵) ≈ 5.39 × 10⁻⁴⁴ s [established]. If time is
+fundamentally discrete [speculative], any physical frequency
+becomes:</p>
+<blockquote>
+<p>ν = (count of oscillations) / (count of Planck times) ∈ Q</p>
+</blockquote>
+<p>This is a rational number. The conventional real-valued frequency in
+Hertz is the Archimedean projection |ν|∞ of this rational — its “size”
+in the real completion.</p>
+<h3 id="valuation-structure-of-a-frequency">3.2. Valuation Structure of
+a Frequency</h3>
+<p>A frequency ν ∈ Q carries valuations at every place:</p>
+<ul>
+<li><strong>Archimedean valuation:</strong> |ν|∞ = the conventional
+“magnitude” (e.g., 10⁹ Hz)</li>
+<li><strong>p-adic valuations:</strong> |ν|_p = p^{−ord_p(ν)} for each
+prime p</li>
+</ul>
+<p>The tuple (|ν|∞, |ν|_2, |ν|_3, |ν|_5, …) is the <strong>adelic
+frequency vector</strong> — the complete invariant of the frequency. The
+Archimedean component alone is a SHADOW of this full structure.</p>
+<h3 id="frequency-in-the-bruhat-tits-tree">3.3. Frequency in the
+Bruhat-Tits Tree</h3>
+<p>For each prime p, the rational frequency ν lives at a specific vertex
+of the Bruhat-Tits tree T_p. Its depth d = ord_p(ν) encodes how many
+factors of p appear in the numerator (d &gt; 0) or denominator (d &lt;
+0). The tree structure encodes all p-adic relationships between
+frequencies.</p>
+<p>Two frequencies ν₁ and ν₂ have a well-defined p-adic distance: |ν₁ −
+ν₂|_p. This distance is ULTRA-METRIC — it satisfies the strong triangle
+inequality:</p>
+<blockquote>
+<p>|ν₁ − ν₂|_p ≤ max(|ν₁ − ν₃|_p, |ν₃ − ν₂|_p)</p>
+</blockquote>
+<p>The ultrametric property means the tree is a natural habitat for
+frequencies — they don’t “smoothly interpolate” as in Archimedean
+geometry; they live at discrete tree vertices.</p>
+<hr />
+<h2 id="compton-frequency-as-prime-spectrum">4. Compton Frequency as
+Prime Spectrum</h2>
+<h3 id="the-compton-frequency">4.1. The Compton Frequency</h3>
+<p>The Compton frequency of a particle of mass m is:</p>
+<blockquote>
+<p>ν_C = m c² / h</p>
+</blockquote>
+<p>In dimensionless Planck units:</p>
+<blockquote>
+<p>ω_C = ν_C × t_P = m / m_P</p>
+</blockquote>
+<p>where m_P = √(hc/G) is the Planck mass. The dimensionless Compton
+frequency ω_C is a pure number — and we claim it is a RATIONAL number
+ω_C ∈ Q [speculative].</p>
+<h3 id="particle-identity-prime-spectrum">4.2. Particle Identity = Prime
+Spectrum</h3>
+<p>If ω_C = a/b ∈ Q, its prime factorization carries the particle’s
+identity:</p>
+<blockquote>
+<p>ω_C = ∏_p p^{e_p} , e_p ∈ Z</p>
+</blockquote>
+<p>The exponents e_p form the <strong>prime spectrum</strong> of the
+particle. Two particles with different Compton frequencies have
+different prime spectra — they are different patterns in the distinction
+network.</p>
+<p>An electron IS the prime spectrum {e_p(electron)}. A muon IS
+{e_p(muon)}. The difference between them is encoded in the difference of
+their prime spectra.</p>
+<h3 id="gauge-charges-as-valuation-structure">4.3. Gauge Charges as
+Valuation Structure</h3>
+<p>We propose [speculative] that gauge charges — electric charge, weak
+isospin, color — arise from the valuation structure of the Compton
+frequency at specific primes or sets of primes:</p>
+<ul>
+<li><strong>Electric charge:</strong> Perhaps related to ord_2(ω_C) mod
+3 (tentative)</li>
+<li><strong>Color charge:</strong> Perhaps related to ord_3(ω_C) — the
+prime 3 corresponds to the three colors of SU(3)</li>
+<li><strong>Weak isospin:</strong> Perhaps related to ord_2(ω_C) mod
+2</li>
+</ul>
+<p>This mapping is currently UNDEVELOPED and is flagged as [speculative
+— no concrete derivation exists]. It is included here as a direction for
+future work.</p>
+<h3 id="particle-spectrum-as-rational-number-table">4.4. Particle
+Spectrum as Rational Number Table</h3>
+<p>In Planck units, the Standard Model masses become dimensionless
+numbers. If these are rational, each mass encodes a prime spectrum:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Particle</th>
+<th style="text-align: left;">Mass (MeV/c²)</th>
+<th style="text-align: left;">m/m_P (approx)</th>
+<th style="text-align: left;">Rational candidate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Electron</td>
+<td style="text-align: left;">0.511</td>
+<td style="text-align: left;">~4.19 × 10⁻²³</td>
+<td style="text-align: left;">ω_e = p_e / q_e (unknown)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Muon</td>
+<td style="text-align: left;">105.66</td>
+<td style="text-align: left;">~8.66 × 10⁻²¹</td>
+<td style="text-align: left;">ω_μ = p_μ / q_μ (unknown)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tau</td>
+<td style="text-align: left;">1776.86</td>
+<td style="text-align: left;">~1.46 × 10⁻¹⁹</td>
+<td style="text-align: left;">ω_τ = p_τ / q_τ (unknown)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Up quark</td>
+<td style="text-align: left;">2.16</td>
+<td style="text-align: left;">~1.77 × 10⁻²²</td>
+<td style="text-align: left;">…</td>
+</tr>
+<tr>
+<td style="text-align: left;">Down quark</td>
+<td style="text-align: left;">4.67</td>
+<td style="text-align: left;">~3.83 × 10⁻²²</td>
+<td style="text-align: left;">…</td>
+</tr>
+</tbody>
+</table>
+<p>The challenge: these are known only to finite precision (typically
+10⁻⁶ relative uncertainty for charged leptons, worse for quarks).
+Whether they are rational or irrational cannot be determined at current
+experimental precision. The rational claim is [not yet falsifiable] — we
+address this in Section 8.</p>
+<hr />
+<h2 id="fundamental-particles-vs.-quasiparticles">5. Fundamental
+Particles vs. Quasiparticles</h2>
+<h3 id="the-valuation-theoretic-distinction">5.1. The
+Valuation-Theoretic Distinction</h3>
+<p>A fundamental particle has a Compton frequency ω_C that is a FIXED
+rational number — an invariant of the global distinction network,
+independent of environment, observer, or epoch.</p>
+<p>A quasiparticle (phonon, magnon, polaron) has a frequency that
+depends on the material’s lattice spacing, temperature, and
+composition:</p>
+<blockquote>
+<p>ω_quasi = f(T, a, B, …) where T = temperature, a = lattice constant,
+B = magnetic field</p>
+</blockquote>
+<p>This frequency is an ENVIRONMENTAL rational — determined by local,
+contingent boundary conditions — not a universal one.</p>
+<h3 id="prime-spectrum-comparison">5.2. Prime Spectrum Comparison</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 46%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Property</th>
+<th style="text-align: left;">Fundamental Particle</th>
+<th style="text-align: left;">Quasiparticle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Compton frequency</td>
+<td style="text-align: left;">Universal ω_C ∈ Q (same everywhere)</td>
+<td style="text-align: left;">Environmental ω_quasi (depends on
+material)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Prime spectrum</td>
+<td style="text-align: left;">Fixed {e_p} for all observers</td>
+<td style="text-align: left;">No fixed {e_p} — changes with
+conditions</td>
+</tr>
+<tr>
+<td style="text-align: left;">Adelic structure</td>
+<td style="text-align: left;">Nontrivial at all places (idele)</td>
+<td style="text-align: left;">Local Archimedean ripple only</td>
+</tr>
+<tr>
+<td style="text-align: left;">Origin</td>
+<td style="text-align: left;">Global distinction network invariant</td>
+<td style="text-align: left;">Emergent from local many-body
+dynamics</td>
+</tr>
+</tbody>
+</table>
+<p>This operationalizes the fundamental/quasi distinction in purely
+valuation-theoretic terms — no reference to “elementarity” or
+“compositeness.”</p>
+<h3 id="the-idele-criterion">5.3. The Idele Criterion</h3>
+<p>We propose [speculative] the <strong>idele criterion</strong>: a
+particle is fundamental if and only if its Compton frequency ω_C has a
+well-defined adelic structure — i.e., it is an idele:</p>
+<blockquote>
+<p>ω_C ∈ I_Q (the idele group of Q)</p>
+</blockquote>
+<p>An idele is a tuple of nonzero rational numbers at every place, with
+|ω_C|_p ≤ 1 for all but finitely many p (the “restricted product”
+condition). This means the Compton frequency must have FINITE p-adic
+valuation at all primes — it cannot be “infinitely divisible” or
+“infinitely large” at any prime.</p>
+<p>Quasiparticles, by contrast, need not satisfy the restricted product
+condition — they are environmental approximants, not ideles.</p>
+<hr />
+<h2 id="the-rydberg-spectrum-as-rational-function">6. The Rydberg
+Spectrum as Rational Function</h2>
+<h3 id="the-rydberg-ritz-combination-principle">6.1. The Rydberg-Ritz
+Combination Principle</h3>
+<p>The empirical discovery that atomic spectral lines combine as
+differences of “terms” (Rydberg-Ritz combination principle, 1908) was
+historically the clue that led to the Bohr model and eventually quantum
+mechanics. In our framework, this principle becomes a theorem about
+rational numbers.</p>
+<p>The Rydberg formula for hydrogen:</p>
+<blockquote>
+<p>1/λ = R∞ (1/n₁² − 1/n₂²)</p>
+</blockquote>
+<p>where n₁, n₂ are positive integers and R∞ is the Rydberg constant. In
+dimensionless Planck units:</p>
+<blockquote>
+<p>ν̃ = (R∞/E_P) × (1/n₁² − 1/n₂²)</p>
+</blockquote>
+<p>where ν̃ is the dimensionless frequency (wavenumber in Planck units)
+and R∞/E_P is the dimensionless Rydberg constant — a rational number ω_R
+∈ Q [speculative].</p>
+<h3 id="rational-function-structure">6.2. Rational Function
+Structure</h3>
+<p>Every atomic transition frequency in hydrogen is:</p>
+<blockquote>
+<p>ν̃_{n₁→n₂} = ω_R × (1/n₁² − 1/n₂²) ∈ Q</p>
+</blockquote>
+<p>Since ω_R ∈ Q and (1/n₁² − 1/n₂²) = (n₂² − n₁²)/(n₁²n₂²) ∈ Q, the
+product is rational. The ENTIRE hydrogen spectrum is a set of rational
+numbers.</p>
+<p>The Rydberg constant itself encodes the electron’s Compton frequency
+and the fine-structure constant:</p>
+<blockquote>
+<p>R∞ = (α²/2) × (m_e c²/h) × (1/c)</p>
+</blockquote>
+<p>In dimensionless Planck units:</p>
+<blockquote>
+<p>ω_R = (α²/2) × ω_e</p>
+</blockquote>
+<p>where α = e²/(4πε₀hc) ≈ 1/137.036 is the fine-structure constant and
+ω_e is the electron’s dimensionless Compton frequency. If both α and ω_e
+are rational, then ω_R is rational.</p>
+<h3 id="generalization-to-multi-electron-atoms">6.3. Generalization to
+Multi-Electron Atoms</h3>
+<p>For any atom, the spectral frequencies are rational functions of the
+dimensionless Compton frequencies of the constituent particles and the
+fine-structure constant. The Balmer, Lyman, Paschen series — all are
+sets of rational numbers. The precision of atomic spectroscopy
+(routinely 10⁻¹² or better) approaches the regime where
+rational-vs-irrational becomes a meaningful question.</p>
+<hr />
+<h2 id="the-product-formula-as-conservation-law">7. The Product Formula
+as Conservation Law</h2>
+<h3 id="mathematical-identity-physical-law">7.1. Mathematical Identity →
+Physical Law</h3>
+<p>Tate’s product formula [5] states that for any nonzero rational
+q:</p>
+<blockquote>
+<p>∏_v |q|_v = 1</p>
+</blockquote>
+<p>where the product runs over the real place and all p-adic places.
+This is a mathematical identity — a theorem about rational numbers.</p>
+<p>We propose [speculative] that this identity has physical content when
+applied to Compton frequencies:</p>
+<blockquote>
+<p>∏_v |ω_C^{(i)}|_v = 1 for each fundamental particle i</p>
+</blockquote>
+<p>For a set of particles interacting through a physical process, the
+product of their Compton frequency valuations across ALL places is
+conserved.</p>
+<h3 id="dimensional-analogy-noethers-theorem">7.2. Dimensional Analogy:
+Noether’s Theorem</h3>
+<p>Noether’s theorem states that every continuous symmetry of a physical
+system corresponds to a conserved quantity [established]. The product
+formula is an identity of rational numbers — a “symmetry” of the
+rational number system itself. If the physical ontology IS rational
+numbers (frequencies as a/b ∈ Q), then the product formula is not an
+externally imposed conservation law — it is the INTERNAL symmetry of the
+number system that constitutes physical reality.</p>
+<h3 id="connection-to-the-bekenstein-bound">7.3. Connection to the
+Bekenstein Bound</h3>
+<p>The Bekenstein bound [9] in dimensionless Planck units is:</p>
+<blockquote>
+<p>I ≤ 2π R E / ln 2</p>
+</blockquote>
+<p>where I is information (in bits), and R and E are dimensionless
+radius and energy. All three quantities are
+counts-of-something-per-something — they are rational numbers in our
+framework. The bound becomes an inequality on rational numbers:</p>
+<blockquote>
+<p>I × ln 2 ≤ 2π × R × E</p>
+</blockquote>
+<p>If π is treated as a rational approximant (355/113, or its exact
+definition as a limit of rational sequences), this is a Diophantine
+inequality connecting the information content of a physical system to
+its geometric and energetic descriptors.</p>
+<h3 id="the-adelic-conservation-law">7.4. The Adelic Conservation
+Law</h3>
+<p>We propose the <strong>adelic conservation law</strong>:</p>
+<blockquote>
+<p>For any isolated physical system, the product of all Compton
+frequency valuations of all constituent particles, across all
+completions (real + p-adic), is invariant under time evolution.</p>
+</blockquote>
+<p>This is the frequency-as-valuation-theory analog of energy
+conservation. In a discrete-time universe, the number of Planck-time
+steps per Compton-cycle of each particle adjusts to maintain the product
+formula as a global invariant.</p>
+<hr />
+<h2 id="predictions-and-falsifiability">8. Predictions and
+Falsifiability</h2>
+<h3 id="falsifiable-predictions">8.1. Falsifiable Predictions</h3>
+<p><strong>P1 — Koide Formula Derivation:</strong> The charged lepton
+mass relation (m_e + m_μ + m_τ)/(√m_e + √m_μ + √m_τ)² ≈ 2/3 [10] emerges
+from valuation-theoretic constraints on the prime spectra of e, μ, τ.
+Specifically, the relation 2/3 should be derivable from the product
+formula applied to the three charged lepton Compton frequencies.</p>
+<p><strong>P2 — Bekenstein Bound as Exact Integer Inequality:</strong>
+For discrete quantum systems (qubit arrays, spin chains), the Bekenstein
+bound in dimensionless form should hold as an EXACT integer inequality I
+≤ ⌊2πRE/ln 2⌋ with no exceptions, whereas the continuum form is an
+inequality that can be approached but never saturated.</p>
+<p><strong>P3 — Prime-Structured Mass Patterns:</strong> If fundamental
+particle masses are rational, then ratios m_i/m_j should cluster around
+rational values with small denominators. The distribution of mass ratios
+should show statistically significant peaks at simple rationals (2/1,
+3/2, 4/3, …) beyond what random real numbers would produce. [This is
+testable with current PDG data — see below.]</p>
+<p><strong>P4 — Rydberg-Ritz Precision Prediction:</strong> The Rydberg
+constant, when expressed as a dimensionless rational in Planck units,
+should converge to a simple rational number as measurement precision
+improves. Specifically, the continued fraction expansion of R∞/E_P
+should terminate (indicating rationality) rather than continue
+indefinitely.</p>
+<h3 id="disconfirmation-conditions">8.2. Disconfirmation Conditions</h3>
+<p>This framework would be DISCONFIRMED if:</p>
+<ol type="1">
+<li>Any fundamental particle mass in Planck units were experimentally
+shown to be an irrational number with high confidence (requires
+precision ~10⁻²⁰ or better)</li>
+<li>The continued fraction expansion of a fundamental dimensionless
+constant (R∞/E_P, α, m_e/m_μ) fails to terminate after extending beyond
+measurement noise</li>
+<li>The prime spectrum approach fails to reproduce the Koide formula to
+within 0.1% when a concrete derivation is attempted</li>
+<li>The Bekenstein bound is VIOLATED for a discrete quantum system (not
+approximated — genuinely violated)</li>
+</ol>
+<h3 id="current-status">8.3. Current Status</h3>
+<table>
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Claim</th>
+<th style="text-align: left;">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Frequency = rational ratio in Planck
+units</td>
+<td style="text-align: left;">[speculative — assumes discrete time]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Compton frequency = particle’s prime
+spectrum</td>
+<td style="text-align: left;">[not yet falsifiable — requires ~10⁻²⁰
+mass precision]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Product formula = conservation law</td>
+<td style="text-align: left;">[speculative — no dynamical mechanism
+specified]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Koide formula derivable from
+valuations</td>
+<td style="text-align: left;">[my conjecture — derivation to be
+attempted]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bekenstein bound as exact integer
+inequality</td>
+<td style="text-align: left;">[speculative — testable with near-term
+quantum simulation]</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="conclusion">9. Conclusion</h2>
+<p>This paper has developed the claim that frequency — the most
+fundamental periodic observable in physics — is not an Archimedean real
+number but a rational valuation-theoretic object. In dimensionless
+Planck units, every frequency reduces to a ratio of integers a/b ∈ Q. By
+Ostrowski’s theorem, this rational carries valuations at the real place
+and at every p-adic place. The frequency’s full invariant is its adelic
+vector.</p>
+<p>The Compton frequency of a fundamental particle is its invariant
+identity — its prime spectrum. Two particles are distinct because their
+Compton frequencies have different prime factorizations. A
+quasiparticle, by contrast, has an environmental frequency without
+universal p-adic valuations. The product formula ∏|ω|_v = 1 acts as a
+conservation law across all completions.</p>
+<p>The framework makes specific predictions: the Koide formula emerges
+from valuation-theoretic constraints; the Bekenstein bound is an exact
+integer inequality for discrete systems; fundamental mass ratios cluster
+at simple rationals. These predictions are testable and distinguish this
+framework from both standard continuum physics and from prior p-adic
+physics programs.</p>
+<p>The Archimedean Lorentzian continuum is a shadow — the projection of
+rational frequencies onto the ∞-completion. The substance lives on
+Bruhat-Tits trees, at the finite places, where prime factorization
+determines identity. Frequency is number theory.</p>
+<hr />
+<h2 id="declarations">Declarations</h2>
+<h3 id="author-contributions">Author Contributions</h3>
+<p>Single author.</p>
+<h3 id="funding">Funding</h3>
+<p>No external funding.</p>
+<h3 id="data-availability">Data Availability</h3>
+<p>Particle mass data from Particle Data Group (pdg.lbl.gov). All other
+data generated within this paper.</p>
+<h3 id="code-availability">Code Availability</h3>
+<p>Not applicable.</p>
+<h3 id="competing-interests">Competing Interests</h3>
+<p>None declared.</p>
+<h3 id="license">License</h3>
+<p>QNFO Unified License Agreement (QNFO-ULA).</p>
+<h3 id="ethics-statement">Ethics Statement</h3>
+<p>Not applicable — theoretical research with no human subjects or
+sensitive data.</p>
+<h3 id="generative-ai-statement">Generative AI Statement</h3>
+<p>This paper was produced with AI assistance for drafting and editing.
+All scientific claims, mathematical reasoning, and citations were
+reviewed and verified by the author.</p>
+<hr />
+<h2 id="references">References</h2>
+<p>[1] QNFO, “The Ostrowski Dimensionless Reformulation v4.0.4,” Zenodo,
+2026. DOI: 10.5281/zenodo.21756190.</p>
+<p>[2] A. Ostrowski, “Über einige Lösungen der Funktionalgleichung
+φ(x)·φ(y) = φ(xy),” Acta Mathematica, vol. 41, pp. 271-284, 1916. DOI:
+10.1007/BF02422942.</p>
+<p>[3] QNFO, “The Compton-Counting Ontology and the Bruhat-Tits Tree
+v1.0,” Zenodo, 2026. DOI: 10.5281/zenodo.21758752.</p>
+<p>[4] QNFO, “ODR Thesis: The Compton Count as the Only Primitive,”
+Zenodo, 2026. DOI: 10.5281/zenodo.21777500.</p>
+<p>[5] J. T. Tate, “Fourier Analysis in Number Fields and Hecke’s
+Zeta-Functions,” Ph.D. thesis, Princeton University, 1950. Published in:
+Cassels &amp; Fröhlich (eds.), Algebraic Number Theory, 1967.</p>
+<p>[6] F. Bruhat and J. Tits, “Groupes réductifs sur un corps local I,”
+Publ. Math. IHÉS, vol. 41, pp. 5-251, 1972. DOI: 10.1007/BF02715544.</p>
+<p>[7] J.-P. Serre, Trees, Springer, 1980.</p>
+<p>[8] E. Fredkin, “Trie Memory,” Comm. ACM, vol. 3, pp. 490-499, 1960.
+DOI: 10.1145/367390.367400.</p>
+<p>[9] J. D. Bekenstein, “Universal upper bound on the entropy-to-energy
+ratio for bounded systems,” Phys. Rev. D, vol. 23, pp. 287-298, 1981.
+DOI: 10.1103/PhysRevD.23.287.</p>
+<p>[10] Y. Koide, “Fermion-Boson Two-Body Model of Quarks and Leptons,”
+Lett. Nuovo Cim., vol. 34, pp. 201-205, 1982. DOI:
+10.1007/BF02817096.</p>
+<p>[11] V. S. Vladimirov and I. V. Volovich, “p-Adic quantum mechanics,”
+Comm. Math. Phys., vol. 123, pp. 659-676, 1989. DOI:
+10.1007/BF01218590.</p>
+<p>[12] S. S. Gubser et al., “p-Adic AdS/CFT,” Comm. Math. Phys.,
+vol. 352, pp. 1019-1059, 2017. DOI: 10.1007/s00220-016-2813-6.</p>
+<p>[13] QNFO, “Quasiparticles as Rational Functions: Extending ODR to
+Condensed Matter,” Zenodo, 2026. DOI: 10.5281/zenodo.21768757.</p>
+</body>
+</html>
