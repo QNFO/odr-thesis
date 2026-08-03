@@ -1,0 +1,96 @@
+{
+  "openalex_rational_frequency": {
+    "hits": 167,
+    "top_titles": [
+      "A Relational Theory of Secured Financing",
+      "Transcending Equality Theory: A Way out of the Maternity and the Workplace Debate",
+      "Ecosystem services or services to ecosystems? Valuing cultivation and reciprocal relationships betwe",
+      "Review and classification of barriers and enablers of demand response in the smart grid",
+      "The influence of emotions on cognitive control: feelings and beliefs\u2014where do they meet?"
+    ],
+    "desc": "OpenAlex: rational frequency Compton valuation number theory"
+  },
+  "openalex_padic_physics": {
+    "hits": 197,
+    "top_titles": [
+      "On Gibbs measures of P-adic Potts model on the cayley tree",
+      "p-Adic physics, non-well-founded reality and unconventional computing",
+      "Path integrals for quadratic lagrangians on p-adic and adelic spaces",
+      "Adelic model of harmonic oscillator",
+      "On a class of rational p-adic dynamical systems"
+    ],
+    "desc": "OpenAlex: p-adic quantum mechanics adelic physics"
+  },
+  "openalex_bruhat_tits": {
+    "hits": 32,
+    "top_titles": [
+      "Interview with John G. Thompson and Jacques Tits",
+      "Treelike Interactions and Fast Scrambling with Cold Atoms",
+      "Wavelets on ultrametric spaces",
+      "Probing holography in $p$-adic CFT",
+      "A Bruhat\u2013Tits Geometry of Scale"
+    ],
+    "desc": "OpenAlex: Bruhat-Tits tree physics frequency"
+  },
+  "crossref_frequency_valuation": {
+    "hits": 799759,
+    "top_titles": [
+      "PROPERTY VALUATION: A RATIONAL MODEL",
+      "Rational inferences about social valuation",
+      "REAL VALUE, RATIONAL MODEL, D.C.F.: A REPLY",
+      "The Dotcom Premium: Rational Valuation or Irrational Exuberance?",
+      "Publicity Rights and Rational Valuation"
+    ],
+    "desc": "Crossref: frequency rational valuation"
+  },
+  "crossref_ostrowski_physics": {
+    "hits": 6128711,
+    "top_titles": [
+      "Generalizations of the Ostrowski\u2013Brauer theorem",
+      "Extensions of the Ostrowski\u2013Reich theorem",
+      "On the Ostrowski-Schneider inertia theorem",
+      "Extensions of the Ostrowski-Reich theorem for SOR iterations",
+      "Spectrum generating algebra and no-ghost theorem for fermionic massive string"
+    ],
+    "desc": "Crossref: Ostrowski theorem physics"
+  },
+  "zenodo_adelic_frequency": {
+    "hits": 97892,
+    "top_titles": [
+      "Enhancing monitoring systems with interference-handling radio frequency direction finding: BMKG C-Ba",
+      "Influence of Waveform Orthogonality and Array Geometry on Compressed Sensing Algorithms for CDMA MIM",
+      "A SUBDIVISION-FUSION ALGORITHM FOR RADAR RANGE SUPER-RESOLUTION IN GAPPED BANDS",
+      "Linear time-continuous state-space realization of flame transfer functions by means of a propagation",
+      "Influence of Waveform Orthogonality and Array Geometry on Compressed Sensing Algorithms for CDMA MIM"
+    ],
+    "desc": "Zenodo: adelic frequency rational"
+  },
+  "zenodo_padic_quantum": {
+    "hits": 1163302,
+    "top_titles": [
+      "TRR-NOTIME: Theory of Relative Reality - Without Time",
+      "The Oscillation Principle",
+      "The General Theory of Entanglement Compression - Explained",
+      "\u91cf\u5b50\u601d\u7ef4\u8d4b\u80fd\u65b0\u8d28\u751f\u4ea7\u529b(Quantum thinking empowers new productive forces)",
+      "\u91cf\u5b50\u7ecf\u6d4e\u601d\u7ef4:\u601d\u7ef4\u662f\u7ecf\u6d4e\u5b66\u7684\u7b2c\u4e00\u751f\u4ea7\u529b(Quantum economic thinking: thinking is the primary productive force in economics"
+    ],
+    "desc": "Zenodo: p-adic quantum mechanics"
+  },
+  "arxiv_padic_physics": {
+    "hits": 0,
+    "top_titles": [],
+    "desc": "arXiv: p-adic quantum physics frequency",
+    "error": "non-JSON response"
+  },
+  "europepmc_rational_frequency": {
+    "hits": 117,
+    "top_titles": [
+      "Tb&lt;sup&gt;3+&lt;/sup&gt;-Doped Glass-Ceramic Scintillating Plates and Fibers for X-Ray Imaging an",
+      "Van-der-Waals-forces-modulated graphene-P-phenyl-graphene carbon allotropes.",
+      "An accurate semi-empirical model for PMT pulse signal analysis.",
+      "Iodine quantification performance with deep silicon-based Photon-Counting CT: A virtual imaging tria",
+      "Radiation image reconstruction and uncertainty quantification using a Gaussian process prior."
+    ],
+    "desc": "Europe PMC: rational frequency Compton"
+  }
+}

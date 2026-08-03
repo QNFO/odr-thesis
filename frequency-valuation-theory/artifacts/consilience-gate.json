@@ -1,0 +1,62 @@
+{
+  "domains": {
+    "Number Theory / Valuation Theory": "Ostrowski's theorem (1916), p-adic valuations, adele ring, product formula \u2014 the claim is that frequency IS a valuation-theoretic object, not an Archimedean real number.",
+    "Physics / Quantum Foundations": "Compton frequency \u03bd_C = mc\u00b2/h is the particle's invariant identity. In Planck units, it's a dimensionless rational. The claim dissolves particle 'thingness' into recurring distinction-patterns. Every fundamental particle IS its prime spectrum.",
+    "Condensed Matter Physics": "Quasiparticle frequencies depend on environmental parameters (lattice spacing, temperature), not universal rationals. This operationalizes the fundamental/quasi distinction: fundamental = universal rational invariant; quasi = environmental rational.",
+    "Information Theory / Computer Science": "Frequency = count per time = bits per step. In discrete time (Planck steps), frequency is an information-theoretic rate. The Bekenstein bound relates information to area in dimensionless Planck units. Radix trees / tries encode the valuation-theoretic structure \u2014 the Bruhat-Tits tree IS a radix tree over the primes.",
+    "Mathematics / Category Theory": "The adelic frequency framework dissolves the distinction between mathematical structure and physical reality. The adele ring and idele class group are the natural objects; the Archimedean continuum is ONE projection. Category theory provides the invariant-pattern language: the universe is a dagger compact category with adelic structure."
+  },
+  "silo_cost_table": [
+    {
+      "Domain": "Number Theory / Valuation Theory",
+      "Structure Name": "Ostrowski completions / Bruhat-Tits tree",
+      "Earliest": 1916,
+      "Cross-Domain Connected": "1989 (Vladimirov-Volovich p-adic QM) / 2026 (ODR)",
+      "Silo Cost (yr)": "73-110",
+      "Key Paper": "Ostrowski, Acta Math 41 (1916); Vladimirov-Volovich, CMP (1989)"
+    },
+    {
+      "Domain": "Physics / Quantum Foundations",
+      "Structure Name": "Compton frequency / Zitterbewegung",
+      "Earliest": 1928,
+      "Cross-Domain Connected": "2026 (ODR dimensionless reformulation)",
+      "Silo Cost (yr)": 98,
+      "Key Paper": "Dirac, Proc. Roy. Soc. A 117 (1928)"
+    },
+    {
+      "Domain": "Condensed Matter Physics",
+      "Structure Name": "Quasiparticle excitations",
+      "Earliest": 1941,
+      "Cross-Domain Connected": "2026 (quasiparticle extension 21768757)",
+      "Silo Cost (yr)": 85,
+      "Key Paper": "Landau, J. Phys. USSR 5 (1941)"
+    },
+    {
+      "Domain": "Information Theory / Computer Science",
+      "Structure Name": "Radix tree / trie / discrete counting",
+      "Earliest": 1960,
+      "Cross-Domain Connected": "2026 (ODR Bruhat-Tits tree as radix tree)",
+      "Silo Cost (yr)": 66,
+      "Key Paper": "Fredkin, CACM 3 (1960); Shannon, BSTJ 27 (1948)"
+    },
+    {
+      "Domain": "Mathematics / Category Theory",
+      "Structure Name": "Adelic rings / idele class group / noncommutative geometry",
+      "Earliest": "1967-2008",
+      "Cross-Domain Connected": "2026 (ODR synthesis)",
+      "Silo Cost (yr)": "40-60",
+      "Key Paper": "Weil (1967); Connes-Marcolli (2008)"
+    }
+  ],
+  "isomorphisms": {
+    "Number Theory \u2192 Physics": "The p-adic valuation ord_p(q) of a rational frequency IS the depth coordinate on the Bruhat-Tits tree. The tree's boundary IS the p-adic projective line P^1(Q_p). This is not an analogy \u2014 the frequency as rational number literally lives in the tree.",
+    "Physics \u2192 Condensed Matter": "A quasiparticle's frequency is an environmental rational (ratio of material parameters) vs. a fundamental particle's frequency is a universal rational (Compton count). The prime spectrum distinguishes them: fundamental particles have fixed valuations at ALL primes; quasiparticles lack p-adic invariance.",
+    "Physics \u2192 Information Theory": "Frequency = cycles / Planck times = the information rate of a periodic process. The Bekenstein bound I \u2264 2\u03c0RE/(h c ln 2) \u2192 I \u2264 2\u03c0RE/ln 2 in dimensionless Planck units. R and E are themselves rational ratios (length in Planck lengths, energy in Planck energies). The entire bound is a statement about integer counts on a radix tree.",
+    "Information Theory \u2192 Number Theory": "A radix tree over base p IS the Bruhat-Tits tree T_p. Each node at level k represents a p-adic ball of radius p^{-k}. The tree encodes exactly the p-adic ultrametric that makes frequencies into valuation-theoretic objects. Fredkin's trie (1960) = Serre's tree (1980) \u2014 same structure, different language.",
+    "Category Theory \u2192 Physics": "The adele ring A and idele class group C_K are not models of physics \u2014 they are the canonical mathematical objects on which harmonic analysis (Tate's thesis) yields the Riemann zeta function. If physics IS the study of the unique self-consistent invariant pattern, and that pattern is the adelic one, then 'physics' and 'adelic number theory' are the same conversation in different rooms."
+  },
+  "meta_principle": "Across ALL domains, the invariant is: a rational ratio a/b \u2208 Q, carrying valuations at every place, determines a hierarchical (tree-structured) coordinate, where the levels correspond to prime powers and the cross-ratios between nodes determine the physical observables. The Archimedean projection (real numbers) is ONE branch of the full valuation-theoretic structure.",
+  "frontier_question": "If the Compton frequency of every fundamental particle is a rational number \u03c9 \u2208 Q with a specific prime spectrum, can the mass ratios of the Standard Model (m_e : m_\u03bc : m_\u03c4 : m_u : m_d : ...) be derived from a valuation-theoretic constraint \u2014 such as the product formula acting as a Diophantine equation on the idele class group?",
+  "total_silo_cost_years": "40-110 yr per domain (max gap: 110 yr from Ostrowski 1916 to ODR 2026)",
+  "status": "DRAFT \u2014 for review"
+}

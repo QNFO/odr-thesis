@@ -1,0 +1,59 @@
+{
+  "project": "Frequency as Valuation Theory",
+  "phase": "Phase 1 Due Diligence",
+  "date": "2026-08-03",
+  "prior_work_direct": [
+    {
+      "category": "p-adic and adelic quantum mechanics",
+      "representative": "Vladimirov & Volovich, Comm. Math. Phys. 123 (1989) \u2014 p-adic quantum mechanics",
+      "coverage": "Established field since 1980s. p-adic wavefunctions, p-adic path integrals, adelic string theory. Uses p-adic numbers as configuration space, not frequency-as-valuation identity.",
+      "gap": "Existing work uses p-adic numbers as a MODEL (an alternative number field for quantum theory), not as the INTRINSIC valuation-theoretic structure of frequency itself. Our claim is stronger: frequency IS already a rational valuation object; the p-adic completions are its NATIVE structure, not an imposed model."
+    },
+    {
+      "category": "Dimensionless reformulation of physics",
+      "representative": "Planck (1899), Duff (2002), trialogue on 'Fundamental Constants' (2002)",
+      "coverage": "Well-established that Planck units make all quantities dimensionless. But this is treated as a convenience, not an ontological claim about the number system.",
+      "gap": "No prior work claims that the resulting dimensionless numbers are specifically RATIONAL (as opposed to real). The rational claim is novel."
+    },
+    {
+      "category": "Natural units / Planck units as fundamental",
+      "representative": "Wilczek, 'On Absolute Units', Physics Today (2005, 2006, 2007 series)",
+      "coverage": "Discusses Planck units as natural, but treats quantities as real numbers. No valuation-theoretic analysis.",
+      "gap": "QNFO ODR thesis (Zenodo 21756190, 21758752) already covers dimensionless reformulation + Bruhat-Tits tree. Our paper provides the frequency-specific formalization."
+    },
+    {
+      "category": "Compton frequency as particle identity",
+      "representative": "de Broglie (1924), Schr\u00f6dinger's Zitterbewegung interpretation",
+      "coverage": "The Compton frequency as internal clock is an old idea. de Broglie's 'internal clock' hypothesis. Hestenes' Zitterbewegung interpretation.",
+      "gap": "No prior work treats the Compton frequency as a VALUATION-THEORETIC object with p-adic completions. The rational-ratio claim with prime spectrum is novel."
+    },
+    {
+      "category": "Masses as numbers / Koide formula",
+      "representative": "Koide, Lett. Nuovo Cim. 34 (1982) \u2014 charged lepton mass formula; many rational mass ratio speculations",
+      "coverage": "The idea that particle mass ratios might be exact rational numbers has a long history. Koide formula is the most famous empirical pattern.",
+      "gap": "Koide and similar work treats mass ratios as real-valued coincidences. Our framework provides a structural justification (frequency = rational valuation) for WHY they should be rational, not real."
+    }
+  ],
+  "constraints": [
+    {
+      "claim": "Particle masses are exactly rational in Planck units",
+      "constraint": "All particle masses are known only to finite precision. No experimental evidence that m_e/m_P is rational vs. irrational. CURRENTLY UNFALSIFIABLE at experimental precision.",
+      "status": "[not yet falsifiable \u2014 acknowledged in core claim]"
+    },
+    {
+      "claim": "Spacetime is fundamentally discrete at Planck scale",
+      "constraint": "No experimental evidence for discrete time. Planck time is 5.39e-44 s, far below any direct probe. This is an ASSUMPTION of the framework.",
+      "status": "[speculative \u2014 derived from ODR framework premises]"
+    },
+    {
+      "claim": "The product formula acts as a dynamical law",
+      "constraint": "Tate's product formula \u220f|q|_v = 1 is a mathematical identity, not a dynamical equation. The leap from 'static identity' to 'conservation law that generates dynamics' requires additional structure not yet specified.",
+      "status": "[speculative \u2014 work needed on dynamical mechanism]"
+    }
+  ],
+  "novelty_assessment": {
+    "overall": "The paper's core novelty claim is: (1) frequency specifically as valuation-theoretic object (not just 'p-adic physics' generically), (2) Compton frequency as prime spectrum of particle identity, (3) the rational-ratio claim that dimensionless frequencies are in Q, not R. None of these specific claims appears in the external literature.",
+    "differentiation_from_odr": "Existing ODR papers (21758752, 21756190, 21777500) establish the Bruhat-Tits coordinate system, dimensionless mandate, and Compton-count-as-primitive. This paper provides the FREQUENCY-SPECIFIC valuation-theoretic bridge \u2014 explaining WHY Compton counting works by showing that frequency is already a rational valuation.",
+    "risk": "Medium \u2014 the claim that masses are rational is empirically indistinguishable from real-valued masses at current precision. The paper must derive falsifiable consequences beyond 'they're rational' to be scientifically meaningful."
+  }
+}
