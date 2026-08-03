@@ -3,8 +3,8 @@ title: "Frequency as Valuation Theory: The Rational Ratio at the Heart of Physic
 author: "QNFO Research"
 date: "2026-08-03"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "TBD"
-status: "draft"
+doi: "10.5281/zenodo.21778603"
+status: "published"
 ---
 
 **Abstract**
