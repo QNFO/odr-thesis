@@ -11,9 +11,9 @@ status: "published"
 
 Physics expresses frequency as a real number — 5.783 × 10^14 Hz, 1420.405751768 MHz. Yet in dimensionless Planck units (h = c = G = k_B = 1), frequency reduces to a ratio of two integers: count-of-oscillations per count-of-Planck-times. This is a rational number q = a/b in Q — not an Archimedean real. By Ostrowski's theorem (1916), every rational number carries valuations at ALL completions: the familiar real absolute value and one p-adic absolute value for each prime p. A frequency is therefore not a real number but a valuation-theoretic object whose full invariant is its adelic frequency vector.
 
-This paper develops the consequences. The Compton frequency ν_C = mc²/h of a fundamental particle reduces to a dimensionless rational number — the particle's invariant identity. We show that particle identity IS its prime spectrum: the factorization of its Compton frequency into prime powers determines its place in the Bruhat-Tits tree at each finite place. The Archimedean Lorentzian continuum emerges as the ∞-completion's projection; the true coordinate system for rational frequencies is the Bruhat-Tits tree with p-adic valuations.
+This paper develops the consequences. The Compton frequency ν_C = mc²/h of a fundamental particle reduces to a dimensionless rational number — the particle's invariant identity. We show that particle identity IS its prime spectrum: the factorization of its Compton frequency into prime powers determines its place in the Bruhat-Tits tree at each finite place. The Archimedean Lorentzian continuum is understood as the ∞-completion's projection; the true coordinate system for rational frequencies is the Bruhat-Tits tree with p-adic valuations.
 
-We distinguish fundamental particles (universal rational Compton frequencies with fixed prime spectra) from quasiparticles (environmental rationals without universal valuations) and propose that the product formula ∏|q|_v = 1 acts as a conservation law connecting all completions. The framework makes the specific prediction that the Koide mass formula for charged leptons emerges from valuation-theoretic constraints, and the Bekenstein bound is exactly an integer inequality for discrete systems.
+We distinguish fundamental particles (universal rational Compton frequencies with fixed prime spectra) from quasiparticles (environmental rationals without universal valuations) and propose that the product formula ∏|q|_v = 1 acts as a conservation law connecting all completions. The framework conjectures that the Koide mass formula for charged leptons emerges from valuation-theoretic constraints, and the Bekenstein bound is exactly an integer inequality for discrete systems.
 
 ---
 
@@ -158,7 +158,7 @@ The challenge: these are known only to finite precision (typically 10⁻⁶ rela
 
 ### 5.1. The Valuation-Theoretic Distinction
 
-A fundamental particle has a Compton frequency ω_C that is a FIXED rational number — an invariant of the global distinction network, independent of environment, observer, or epoch.
+A fundamental particle has a Compton frequency ω_C that is a FIXED rational number — an invariant of the global distinction network (the combinatorial graph whose vertices are rational frequency ratios and whose edges encode the p-adic ultrametric structure), independent of environment, observer, or epoch.
 
 A quasiparticle (phonon, magnon, polaron) has a frequency that depends on the material's lattice spacing, temperature, and composition:
 
@@ -179,13 +179,15 @@ This operationalizes the fundamental/quasi distinction in purely valuation-theor
 
 ### 5.3. The Idele Criterion
 
-We propose [speculative] the **idele criterion**: a particle is fundamental if and only if its Compton frequency ω_C has a well-defined adelic structure — i.e., it is an idele:
+We propose [not yet falsifiable] the **idele criterion**: a particle is fundamental if and only if its Compton frequency ω_C has a well-defined adelic structure — i.e., it is an idele:
 
 > ω_C ∈ I_Q  (the idele group of Q)
 
 An idele is a tuple of nonzero rational numbers at every place, with |ω_C|_p ≤ 1 for all but finitely many p (the "restricted product" condition). This means the Compton frequency must have FINITE p-adic valuation at all primes — it cannot be "infinitely divisible" or "infinitely large" at any prime.
 
 Quasiparticles, by contrast, need not satisfy the restricted product condition — they are environmental approximants, not ideles.
+
+**Falsifiability:** This criterion would be disconfirmed if any particle satisfying all other criteria for fundamentality (universal Compton frequency invariant across all observers and epochs, fixed prime spectrum) were shown to violate the restricted product condition. However, the restricted product condition itself — requiring finiteness of p-adic valuation at all infinitely many primes — cannot be experimentally tested at present: it requires knowledge of the Compton frequency to infinite p-adic precision for all primes p. The criterion is therefore [not yet falsifiable] at current experimental resolution. It is presented here as a structural definition of fundamentality within the ODR framework, not as an independently testable physical hypothesis.
 
 ---
 
@@ -255,11 +257,17 @@ The Bekenstein bound [9] in dimensionless Planck units is:
 
 > I ≤ 2π R E / ln 2
 
-where I is information (in bits), and R and E are dimensionless radius and energy. All three quantities are counts-of-something-per-something — they are rational numbers in our framework. The bound becomes an inequality on rational numbers:
+where I is information (in bits), and R and E are dimensionless radius and energy.
+
+**Two caveats are necessary.** First, the bound's standard derivation [9] uses quantum field theory on an Archimedean continuum background — the very framework this paper argues is an emergent projection. Using continuum-derived results as evidence for the rational framework is circular unless the bound can be independently derived within a discrete, tree-based counting framework. We acknowledge this gap: the derivation of the bound from Bruhat-Tits tree combinatorics remains an open research problem.
+
+Second, the bound contains π — a provably irrational number (Lambert, 1761). If our framework requires all physical quantities to ultimately be rational, then π must emerge as the limit of a rational sequence (e.g., from the product formula over the idele class group). We acknowledge that a derivation of π from rational-valuation constraints is not yet available.
+
+Subject to these caveats, all quantities I, R, and E in the bound are nominally ratios of integer counts — rational numbers in the discrete-time picture. The bound can be expressed as:
 
 > I × ln 2 ≤ 2π × R × E
 
-If π is treated as a rational approximant (355/113, or its exact definition as a limit of rational sequences), this is a Diophantine inequality connecting the information content of a physical system to its geometric and energetic descriptors.
+This is an inequality over Q with a transcendental constant — not a Diophantine inequality as would hold if ALL terms, including π, were rational. The rational-frequency framework would be strengthened if π could be shown to emerge as a rational limit from the product formula over the idele class group, but we do not attempt that derivation here.
 
 ### 7.4. The Adelic Conservation Law
 
@@ -275,7 +283,7 @@ This is the frequency-as-valuation-theory analog of energy conservation. In a di
 
 ### 8.1. Falsifiable Predictions
 
-**P1 — Koide Formula Derivation:** The charged lepton mass relation (m_e + m_μ + m_τ)/(√m_e + √m_μ + √m_τ)² ≈ 2/3 [10] emerges from valuation-theoretic constraints on the prime spectra of e, μ, τ. Specifically, the relation 2/3 should be derivable from the product formula applied to the three charged lepton Compton frequencies.
+**P1 — Koide Formula Derivation (conjectured consequence):** We conjecture that the charged lepton mass relation (m_e + m_μ + m_τ)/(√m_e + √m_μ + √m_τ)² ≈ 2/3 [10] emerges from valuation-theoretic constraints on the prime spectra of e, μ, τ. Specifically, the relation 2/3 should be derivable from the product formula applied to the three charged lepton Compton frequencies. The derivation has not yet been performed — this is a conjectured consequence of the framework, not a verified prediction. If a concrete derivation is attempted and successfully reproduces the Koide formula to within 0.1%, this would constitute strong evidence for the framework. If attempted and it fails, this would disconfirm the conjecture.
 
 **P2 — Bekenstein Bound as Exact Integer Inequality:** For discrete quantum systems (qubit arrays, spin chains), the Bekenstein bound in dimensionless form should hold as an EXACT integer inequality I ≤ ⌊2πRE/ln 2⌋ with no exceptions, whereas the continuum form is an inequality that can be approached but never saturated.
 
