@@ -3,8 +3,8 @@ title: "ODR Thesis: The Compton Count as the Only Primitive — A Five-Question 
 author: "QNFO"
 date: "2026-08-03"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21768784"
-status: "draft"
+doi: "10.5281/zenodo.21780909"
+status: "published"
 ---
 
 ## Abstract
@@ -55,7 +55,7 @@ $$
 
 The set of exponents $\{a_p\}$ for all primes determines the particle's $p$-adic valuation $\operatorname{ord}_p(N_C) = a_p$ at every prime. These valuations assign the particle a specific depth and branching path on the Bruhat–Tits tree: a $(p+1)$-valent tree where each vertex is identified with a rational number and edges represent transitions between numbers with different $p$-adic valuations [established — mathematics; Kaletha & Prasad 2023].
 
-The electron's Compton count is $N_C^{\text{electron}} \approx 4.185 \times 10^{-23}$. Its prime factorisation is finite and exact — the decimal is merely the Archimedean projection of a rational number. [speculative]
+The electron's Compton count is $N_C^{\text{electron}} \approx 4.185 \times 10^{-23}$. Its prime factorisation is finite and exact — the decimal is the Archimedean projection of a rational number. [speculative]
 
 ### 2.3 The Quasiparticle Extension
 
@@ -79,7 +79,7 @@ It lacks the "ontological permanence" of a bare particle because its prime facto
 
 Ostrowski's theorem (1916) proves that the only non-trivial absolute values on $\mathbb{Q}$ are the Archimedean absolute value (the usual real norm) and the $p$-adic absolute values for each prime $p$ [established — mathematics]. There are no others. The real numbers $\mathbb{R}$ are the Archimedean completion of $\mathbb{Q}$; the $p$-adic numbers $\mathbb{Q}_p$ are the non-Archimedean completions.
 
-Physicists have used $\mathbb{R}$ for approximately 400 years, implicitly treating the Archimedean completion as the "real" number system. ODR asks: what if $\mathbb{Q}$ itself — the rational numbers — is the primitive, and $\mathbb{R}$ and $\mathbb{Q}_p$ are merely completions? [speculative]
+Physicists have used $\mathbb{R}$ for approximately 400 years, implicitly treating the Archimedean completion as the "real" number system. ODR asks: what if $\mathbb{Q}$ itself — the rational numbers — is the primitive, and $\mathbb{R}$ and $\mathbb{Q}_p$ are all completions? [speculative]
 
 ### 3.2 Place-Democracy
 
