@@ -1,7 +1,7 @@
 # PROJECT-PLAN.md — ODR Thesis: The Compton Count as Primitive
 
 **Project Slug:** `odr-thesis`
-**Phase:** 0 (Scaffold Complete)
+**Phase:** 4 (Deep Research — post red-team v1 remediation)
 **Date:** 2026-08-03
 
 ---
@@ -18,43 +18,43 @@
 
 ## Work Breakdown Structure
 
-### Phase 0: Project Initialization (current)
+### Phase 0: Project Initialization
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P0.1 | Scaffold directories + git init | COMPLETE |
+| P0.1 | Scaffold directories + git init | COMPLETE (v0.1-phase0) |
 | P0.2 | README.md | COMPLETE |
-| P0.3 | PROJECT-PLAN.md (this file) | IN PROGRESS |
+| P0.3 | PROJECT-PLAN.md | COMPLETE |
 | P0.4 | .gitignore | COMPLETE |
-| P0.5 | Core claim lock | PENDING |
-| P0.6 | Git commit + tag v0.1-phase0 + push | PENDING |
-| P0.7 | KG entry | PENDING |
+| P0.5 | Core claim lock | COMPLETE |
+| P0.6 | Git commit + tag v0.1-phase0 + push | COMPLETE |
+| P0.7 | KG entry | COMPLETE |
 
 ### Phase 1: Due Diligence
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P1.1 | QNFO cross-reference (KG + D1 + Vectorize) | PENDING |
-| P1.2 | External literature search (8 sources) | PENDING |
-| P1.3 | Gap analysis | PENDING |
-| P1.4 | Consilience Gate (KIF-29, HARD) | PENDING |
+| P1.1 | QNFO cross-reference (KG + D1 + Vectorize) | COMPLETE (v0.2-phase1-dd) |
+| P1.2 | External literature search (8 sources) | COMPLETE |
+| P1.3 | Gap analysis | COMPLETE |
+| P1.4 | Consilience Gate (KIF-29, HARD) | COMPLETE |
 
 ### Phase 2: Literature Search & Triage
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P2.1 | Multi-source search (parallel) | PENDING |
-| P2.2 | Classification matrix (Core/Supporting/Background/Reject) | PENDING |
-| P2.3 | Mandatory Symmetry Template (KIF-18) | PENDING |
+| P2.1 | Multi-source search (parallel) | COMPLETE (v0.3-phase2-lit) |
+| P2.2 | Classification matrix (Core/Supporting/Background/Reject) | COMPLETE |
+| P2.3 | Mandatory Symmetry Template (KIF-18) | COMPLETE |
 
 ### Phase 3: Citation Management
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P3.1 | Extract citations from draft | PENDING |
-| P3.2 | Verify BibTeX entries | PENDING |
-| P3.3 | Auto-generate missing DOIs | PENDING |
+| P3.1 | Extract citations from draft | COMPLETE (v0.4-phase3-cite) |
+| P3.2 | Verify BibTeX entries | COMPLETE — **RED-TEAM CORRECTED v1: 28 unique entries, all 19 DOIs verified via Crossref/DataCite (v0.5-redteam-fix)** |
+| P3.3 | Auto-generate missing DOIs | COMPLETE (manual construction documented — DOI→BibTeX endpoint returns HTML redirects; entries built from Crossref/OpenAlex metadata) |
 
 ### Phase 4: Deep Research & Structured Forecast
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P4.1 | Domain Assessment | PENDING |
+| P4.1 | Domain Assessment | IN PROGRESS |
 | P4.2 | Paradigm-Shift Candidates | PENDING |
 | P4.3 | Assumption Audit | PENDING |
 | P4.4 | Red-Team Challenge (5 adversary) | PENDING |
@@ -71,7 +71,7 @@
 | P5.4 | Banned words scan | PENDING |
 | P5.5 | Mojibake scan | PENDING |
 | P5.6 | PDF build (pandoc→xhtml2pdf fallback) | PENDING |
-| P5.7 | Zenodo upload with DOI | PENDING |
+| P5.7 | Zenodo upload with DOI | PENDING (R1: token 403 — needs deposit:write scope) |
 
 ### Phase 6: Cloudflare Deployment
 | ID | Task | Status |
@@ -98,14 +98,14 @@
 
 ## Milestones
 
-| Milestone | Gate | Target Date |
-|:----------|:-----|:------------|
-| M0: Phase 0 Complete | Repo initialized, pushed, tagged, KG entry | 2026-08-03 |
-| M1: Due Diligence Complete | Consilience Gate passed, literature classified | 2026-08-04 |
-| M2: Deep Research Complete | Forecast report + calibration register | 2026-08-05 |
-| M3: Draft Complete | Full paper with all 5 RQ sections | 2026-08-06 |
-| M4: Publication Complete | PDF built, BPs passed, Zenodo DOI | 2026-08-07 |
-| M5: Distribution Complete | D1, R2, papers-server, GitHub release | 2026-08-08 |
+| Milestone | Gate | Target Date | Status |
+|:----------|:-----|:------------|:-------|
+| M0: Phase 0 Complete | Repo initialized, pushed, tagged, KG entry | 2026-08-03 | DONE |
+| M1: Due Diligence Complete | Consilience Gate passed, literature classified | 2026-08-03 | DONE |
+| M2: Deep Research Complete | Forecast report + calibration register | 2026-08-04 | IN PROGRESS |
+| M3: Draft Complete | Full paper with all 5 RQ sections | 2026-08-05 | PENDING |
+| M4: Publication Complete | PDF built, BPs passed, Zenodo DOI | 2026-08-06 | PENDING |
+| M5: Distribution Complete | D1, R2, papers-server, GitHub release | 2026-08-07 | PENDING |
 
 ---
 

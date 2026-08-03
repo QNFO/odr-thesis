@@ -16,7 +16,7 @@
 | C2 | Continuum Trilogy Paper I | QNFO | 2026 | Zenodo | 10.5281/zenodo.21672990 | 2,3 |
 | C3 | Quasiparticles as Rational Functions (ODR extension) | QNFO | 2026 | Zenodo (PENDING) | TBD | 1 |
 | C4 | Tensor network and (p-adic) AdS/CFT | Bhattacharyya et al. | 2018 | JHEP | 10.1007/jhep01(2018)139 | 3 |
-| C5 | p-adic CFT is a holographic tensor network | Chen et al. | 2019 | JHEP | 10.1007/jhep04(2019)170 | 3 |
+| C5 | p-adic CFT is a holographic tensor network | Hung, Li, Melby-Thompson | 2019 | JHEP | 10.1007/jhep04(2019)170 | 3 |
 | C6 | Emergent Einstein Equation in p-adic CFT Tensor Networks | Chen, Liu, Hung | 2021 | PRL | 10.1103/physrevlett.127.221602 | 3,4 |
 | C7 | Über einige Lösungen der Funktionalgleichung... (Ostrowski's theorem) | Ostrowski, A. | 1916 | Acta Mathematica | — | 2 |
 
@@ -25,8 +25,9 @@
 | # | Title | Authors | Year | Source | DOI | RQ |
 |:--|:------|:--------|:-----|:-------|:----|:---|
 | S1 | Tensor networks, p-adic fields, and algebraic curves | Heydeman et al. | 2016 | arXiv/JHEP | — | 3 |
-| S2 | Bending the Bruhat-Tits tree (BTZ analogue) | [authors] | 2021 | JHEP | — | 3 |
-| S3 | p-adic AdS/CFT | Gubser et al. | 2017 | CMP | — | 3 |
+| S2 | Bending the Bruhat-Tits tree Part II (BTZ analogue) | Chen, Liu, Hung | 2021 | JHEP | 10.1007/jhep09(2021)097 | 3 |
+| S3 | p-adic AdS/CFT | Gubser et al. | 2017 | CMP | 10.1007/s00220-016-2813-6 | 3 |
+| S3b | Scattering on the Bruhat-Tits tree. I | Romanov, Rudin | 1995 | Phys Lett A | 10.1016/0375-9601(94)00997-4 | 4 |
 | S4 | p-Adic Analysis and Mathematical Physics | Vladimirov, Volovich, Zelenov | 1994 | Book | — | 2,3 |
 | S5 | More Is Different | Anderson, P.W. | 1972 | Science | — | 1 |
 | S6 | Foundations of Perturbative QCD | Collins | 2011 | CUP | 10.1017/cbo9780511975592 | 1 |
@@ -96,7 +97,8 @@
 
 #### RQ4: Testable Predictions
 - **Emergent Einstein Equations (C6):** Chen, Liu, Hung (2021 PRL) derive Einstein equations from p-adic CFT tensor networks — this is the closest example of a "testable prediction from BT tree geometry." It demonstrates that the tree CAN produce falsifiable physical predictions (in this case, gravitational dynamics).
-- **Overwhelmingly negative:** No external paper proposes a Planck-scale prediction specifically from the BT-tree / Compton-count framework. This is the thesis's hardest gap — a novel prediction must be developed.
+- **BT-tree scattering theory EXISTS:** Romanov & Rudin (1995, Phys Lett A, 10.1016/0375-9601(94)00997-4) developed "Scattering on the Bruhat-Tits tree. I" — a concrete scattering formalism on the tree. This is prior art that the thesis's RQ4 must engage: the claim is not "no BT scattering exists" but "no BT scattering has been connected to Compton-count particle ontology, and no prediction distinguishing ODR from standard QFT has been derived." This is a HARD constraint on the RQ4 narrative (corrected during red-team v1, 2026-08-03).
+- **Overwhelmingly negative (for the specific ODR claim):** No external paper proposes a Planck-scale prediction specifically from the BT-tree / Compton-count / particle-identity framework. This is the thesis's hardest gap — a novel prediction must be developed.
 - **Lorentz violation:** The p-adic breaking of Lorentz invariance is well-known [S4, S2]. Any BT-tree-based prediction will likely involve a Lorentz-violation signature at Planck scale — this constrains the search space.
 
 #### RQ5: Silo Failure Diagnosis
