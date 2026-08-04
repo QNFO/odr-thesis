@@ -131,3 +131,44 @@
 ---
 
 *"These research questions are pathways to the confirmation or refutation of the adelic distinction thesis. They are not the body of this paper but the frontier it opens."* — ODR Thesis v2.0, §7.3
+
+---
+
+## 9. COMPANION PAPER — Quasiparticles as Rational Functions v2.0
+
+> **Canonical DOI:** [10.5281/zenodo.21784490](https://doi.org/10.5281/zenodo.21784490)
+> **Published:** 2026-08-04 | **Relation:** Extends ODR RQ1 into condensed matter with cross-ratio formalism
+> **Synopsis:** The BT tree has no origin — the electron Compton count is already a cross-ratio against the Planck scale. Quasiparticles are nested cross-ratios; particles and quasiparticles are ontologically identical in the BT tree.
+
+### QP Falsifiability Conditions (5)
+
+| ID | Condition | Test Method | Status |
+|:---|:----------|:-----------|:-------|
+| **QP-F1** | Quasiparticle found with m* independent of host material, temperature, and external fields | PDG + solid-state review | **HOLDS** (~90yr) — this is the same null test as ODR RQ1 |
+| **QP-F2** | Phonon mode with p-adic ord_p(N_C) invariant across lattice constant changes | DFT calculations across crystal structures | **UNTESTED** |
+| **QP-F3** | Quasiparticle surviving removal of host medium (free excitation post lattice dissolution) | Condensed matter experiment | **HOLDS** — no known quasiparticle survives host removal |
+| **QP-F4** | Experiment isolating Compton count without measurement apparatus/background (cross-ratio-unavoidability) | Fundamental QM test | **HOLDS** — measurement problem in QM; no such experiment exists |
+| **QP-F5** | Nested cross-ratio fails for any composite system (not expressible as rational function of fundamental N_C) | Compute ω_excitation/ω_lattice for wide material class | **UNTESTED** — requires DFT computational campaign |
+
+### QP Frontier Question
+
+**Maximum Ontological Distance:** Is there a depth threshold on the BT tree beyond which the rational function approximation for N_C*(α) breaks down? The answer: when the host lattice loses stable prime factorization (disordered/strongly correlated beyond quasiparticle paradigm).
+
+### QP Key Insight (v2.0 — cross-ratio)
+
+> "There are no substances, only cross-ratios at different scales." — The invariant particle IS a relation (cross-ratio against Planck scale). Dualism resolves into geometric fact: the BT tree has no origin, so every coordinate is a ratio of two reference points.
+
+### QP Intersection with ODR RQs
+
+| ODR RQ | QP Extension |
+|:-------|:-------------|
+| RQ1 (Compton count as primitive) | **Strengthened** — valid for both particles and quasiparticles via cross-ratio |
+| RQ4 (Testable predictions) | **Reinforced** — P5 (quasiparticle null test) aligns with QP-F1 |
+| FQ10 (Consciousness/observer) | **Precursor** — QP-F4 (cross-ratio unavoidability) touches measurement problem |
+
+### QP Session Log
+
+| Date | Session | Action |
+|:-----|:--------|:-------|
+| 2026-08-04 | hdd6PloLtF_ybqD_CK7EH | QP v2.0 companion entries added to ODR continuity registry |
+
