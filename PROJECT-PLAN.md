@@ -21,78 +21,78 @@
 ### Phase 0: Project Initialization
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P0.1 | Scaffold directories + git init | COMPLETE (v0.1-phase0) |
-| P0.2 | README.md | COMPLETE |
-| P0.3 | PROJECT-PLAN.md | COMPLETE |
-| P0.4 | .gitignore | COMPLETE |
-| P0.5 | Core claim lock | COMPLETE |
-| P0.6 | Git commit + tag v0.1-phase0 + push | COMPLETE |
-| P0.7 | KG entry | COMPLETE |
+| QNFO.ODR.001.P0.T1 | Scaffold directories + git init | COMPLETE (v0.1-phase0) |
+| QNFO.ODR.001.P0.T2 | README.md | COMPLETE |
+| QNFO.ODR.001.P0.T3 | PROJECT-PLAN.md | COMPLETE |
+| QNFO.ODR.001.P0.T4 | .gitignore | COMPLETE |
+| QNFO.ODR.001.P0.T5 | Core claim lock | COMPLETE |
+| QNFO.ODR.001.P0.T6 | Git commit + tag v0.1-phase0 + push | COMPLETE |
+| QNFO.ODR.001.P0.T7 | KG entry | COMPLETE |
 
 ### Phase 1: Due Diligence
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P1.1 | QNFO cross-reference (KG + D1 + Vectorize) | COMPLETE (v0.2-phase1-dd) |
-| P1.2 | External literature search (8 sources) | COMPLETE |
-| P1.3 | Gap analysis | COMPLETE |
-| P1.4 | Consilience Gate (KIF-29, HARD) | COMPLETE |
+| QNFO.ODR.001.P1.T1 | QNFO cross-reference (KG + D1 + Vectorize) | COMPLETE (v0.2-phase1-dd) |
+| QNFO.ODR.001.P1.T2 | External literature search (8 sources) | COMPLETE |
+| QNFO.ODR.001.P1.T3 | Gap analysis | COMPLETE |
+| QNFO.ODR.001.P1.T4 | Consilience Gate (KIF-29, HARD) | COMPLETE |
 
 ### Phase 2: Literature Search & Triage
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P2.1 | Multi-source search (parallel) | COMPLETE (v0.3-phase2-lit) |
-| P2.2 | Classification matrix (Core/Supporting/Background/Reject) | COMPLETE |
-| P2.3 | Mandatory Symmetry Template (KIF-18) | COMPLETE |
+| QNFO.ODR.001.P2.T1 | Multi-source search (parallel) | COMPLETE (v0.3-phase2-lit) |
+| QNFO.ODR.001.P2.T2 | Classification matrix (Core/Supporting/Background/Reject) | COMPLETE |
+| QNFO.ODR.001.P2.T3 | Mandatory Symmetry Template (KIF-18) | COMPLETE |
 
 ### Phase 3: Citation Management
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P3.1 | Extract citations from draft | COMPLETE (v0.4-phase3-cite) |
-| P3.2 | Verify BibTeX entries | COMPLETE — **RED-TEAM CORRECTED v1: 28 unique entries, all 19 DOIs verified via Crossref/DataCite (v0.5-redteam-fix)** |
-| P3.3 | Auto-generate missing DOIs | COMPLETE (manual construction documented — DOI→BibTeX endpoint returns HTML redirects; entries built from Crossref/OpenAlex metadata) |
+| QNFO.ODR.001.P3.T1 | Extract citations from draft | COMPLETE (v0.4-phase3-cite) |
+| QNFO.ODR.001.P3.T2 | Verify BibTeX entries | COMPLETE — **RED-TEAM CORRECTED v1: 28 unique entries, all 19 DOIs verified via Crossref/DataCite (v0.5-redteam-fix)** |
+| QNFO.ODR.001.P3.T3 | Auto-generate missing DOIs | COMPLETE (manual construction documented — DOI→BibTeX endpoint returns HTML redirects; entries built from Crossref/OpenAlex metadata) |
 
 ### Phase 4: Deep Research & Structured Forecast
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P4.1 | Domain Assessment | IN PROGRESS |
-| P4.2 | Paradigm-Shift Candidates | PENDING |
-| P4.3 | Assumption Audit | PENDING |
-| P4.4 | Red-Team Challenge (5 adversary) | PENDING |
-| P4.5 | Calibration Register | PENDING |
-| P4.6 | Practical Applications Extension | PENDING |
-| P4.7 | Counterfactual Backcasting | PENDING |
+| QNFO.ODR.001.P4.T1 | Domain Assessment | IN PROGRESS |
+| QNFO.ODR.001.P4.T2 | Paradigm-Shift Candidates | PENDING |
+| QNFO.ODR.001.P4.T3 | Assumption Audit | PENDING |
+| QNFO.ODR.001.P4.T4 | Red-Team Challenge (5 adversary) | PENDING |
+| QNFO.ODR.001.P4.T5 | Calibration Register | PENDING |
+| QNFO.ODR.001.P4.T6 | Practical Applications Extension | PENDING |
+| QNFO.ODR.001.P4.T7 | Counterfactual Backcasting | PENDING |
 
 ### Phase 5: Publication Pipeline
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P5.1 | Draft paper (5 RQ sections + synthesis) | PENDING |
-| P5.2 | BP gates (BP-1 through BP-10) | PENDING |
-| P5.3 | Certainty calibration pass | PENDING |
-| P5.4 | Banned words scan | PENDING |
-| P5.5 | Mojibake scan | PENDING |
-| P5.6 | PDF build (pandoc→xhtml2pdf fallback) | PENDING |
-| P5.7 | Zenodo upload with DOI | PENDING (R1: token 403 — needs deposit:write scope) |
+| QNFO.ODR.001.P5.T1 | Draft paper (5 RQ sections + synthesis) | PENDING |
+| QNFO.ODR.001.P5.T2 | BP gates (BP-1 through BP-10) | PENDING |
+| QNFO.ODR.001.P5.T3 | Certainty calibration pass | PENDING |
+| QNFO.ODR.001.P5.T4 | Banned words scan | PENDING |
+| QNFO.ODR.001.P5.T5 | Mojibake scan | PENDING |
+| QNFO.ODR.001.P5.T6 | PDF build (pandoc→xhtml2pdf fallback) | PENDING |
+| QNFO.ODR.001.P5.T7 | Zenodo upload with DOI | PENDING (R1: token 403 — needs deposit:write scope) |
 
 ### Phase 6: Cloudflare Deployment
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P6.1 | D1 living-paper insert | PENDING |
-| P6.2 | Papers-server verification | PENDING |
-| P6.3 | R2 archive | PENDING |
+| QNFO.ODR.001.P6.T1 | D1 living-paper insert | PENDING |
+| QNFO.ODR.001.P6.T2 | Papers-server verification | PENDING |
+| QNFO.ODR.001.P6.T3 | R2 archive | PENDING |
 
 ### Phase 7: Dissemination
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P7.1 | SEO audit | PENDING |
-| P7.2 | Social media (Buffer) | PENDING |
-| P7.3 | Internet Archive | PENDING |
+| QNFO.ODR.001.P7.T1 | SEO audit | PENDING |
+| QNFO.ODR.001.P7.T2 | Social media (Buffer) | PENDING |
+| QNFO.ODR.001.P7.T3 | Internet Archive | PENDING |
 
 ### Phase 8: Core Distribution
 | ID | Task | Status |
 |:---|:-----|:-------|
-| P8.1 | GitHub push + release tag | PENDING |
-| P8.2 | Zenodo newversion (if applicable) | PENDING |
-| P8.3 | D1/KG records update | PENDING |
+| QNFO.ODR.001.P8.T1 | GitHub push + release tag | PENDING |
+| QNFO.ODR.001.P8.T2 | Zenodo newversion (if applicable) | PENDING |
+| QNFO.ODR.001.P8.T3 | D1/KG records update | PENDING |
 
 ---
 
@@ -145,3 +145,5 @@
 4. PDF built and verified (zero U+FFFD)
 5. Zenodo DOI obtained
 6. All compliance gates passed (mojibake, banned words, certainty calibration, Ostrowski dimensionless)
+
+> **WBS CODE STANDARD (qnfo-core §N-1):** Tasks use `[ODR-Pn-Tnn]` codes. 
